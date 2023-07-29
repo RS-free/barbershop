@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BarberShop</title>
+    </head>
+    <body>
+        <!-- header>a+ul>(li>a)*4 - скорочений запис через emet -->
+        <header>
+            <nav>
+                <a href=""><img src="./images/logo.svg" alt="Логотип Барбершоп" /></a>
+                <ul>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#price">Послуги та ціни</a></li>
+                    <li><a href="#team">Майстра</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+380441111111">+38 044 111 11 11</a>
+            <a href="#contact-form">Онлайн-запис</a>
+        </header>
+        <main>
+            <!-- section>div>p+h1+p -->
+            <section>
+                <div>
+                    <p lang="en">A hair salon for men in Kyiv</p>
+                    <h1 lang="en">BarberShop</h1>
+                    <p>Ми експерти в модних чоловічих стрижках. Працюємо швидко, обережно та зі смаком.</p>
+                </div>
+                <!-- ul>(li>a)*2 -->
+                <ul>
+                    <li><a href="" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+                </ul>
+            </section>
+            <!-- section>ul>(li>img[src="./images/about/img-$.jpg"])*2 -->
+            <section id="about">
+                <ul>
+                    <li><img src="./images/about/img-1.jpg" width="270" height="445" alt="Бриття" /></li>
+                    <li><img src="./images/about/img-2.jpg" width="270" height="445" alt="Стрижка" /></li>
+                </ul>
+                <!-- div>p+h2+p*2+button[type=button] -->
+                <div>
+                    <p>Про нас</p>
+                    <h2>Найкращий Барбер твого міста</h2>
+                    <p>Якщо ти хочеш додати у свій образ більше впевненості - тобі точно до нас.</p>
+                    <p>
+                        Ми команда, яка ніколи не зупиняється на досягнутому і жадає змін. І коли ти потрапиш до рук
+                        нашого майстра, то вже ніколи не зможеш бути таким яким був раніше. Ми команда, яка завжди з
+                        клієнтами "на одній хвилі". Тому, ми завжди готові вдосконалити кожного, хто до нас приходить!
+                    </p>
+                    <button type="button">Онлайн-запис</button>
+                </div>
+            </section>
+            <!-- section>p+h2+(ul>(li>span*2)*4)*2 -->
+            <section id="price">
+                <p>Проведи свій час в компанії найкращих майстрів</p>
+                <h2>Послуги та ціни</h2>
+                <ul>
+                    <li><span>Чоловіча стрижка</span><span>від 300 грн.</span></li>
+                    <li><span>Стрижка бороди</span><span>від 200 грн.</span></li>
+                    <li><span>Стрижка вусів</span><span>від 150 грн.</span></li>
+                    <li><span>Гоління небезпечною бритвою</span><span>від 300 грн.</span></li>
+                </ul>
+                <ul>
+                    <li><span>Стрижка у стажера</span><span>від 100 грн.</span></li>
+                    <li><span>Стрижка під насадку</span><span>від 200 грн.</span></li>
+                    <li><span>Дитяча стрижка (до 12 років)</span><span>від 50 грн.</span></li>
+                    <li><span>Камуфлювання сивини</span><span>від 300 грн.</span></li>
+                </ul>
+                <a href="#contact-form">Онлайн-запис</a>
+            </section>
+            <section>
+                <!-- ul>(li>span>sup^p)*4 -->
+                <ul>
+                    <li>
+                        <span>600<sup>+</sup></span>
+                        <p>Задоволених клієнтів вдень</p>
+                    </li>
+                    <li>
+                        <span>50<sup>+</sup></span>
+                        <p>Нагород за чудовий сервіс</p>
+                    </li>
+                    <li>
+                        <span>20<sup>+</sup></span>
+                        <p>Найкращих майстрів Київа</p>
+                    </li>
+                    <li>
+                        <span>100<sup>+</sup></span>
+                        <p>Подарунків постійним клієнтам</p>
+                    </li>
+                </ul>
+                <!-- div>p+h2+p -->
+                <div>
+                    <p>Стара традиційна школа</p>
+                    <h2>Чому приходять саме до нас?</h2>
+                    <p>Про нас говорять тільки хороше. Але краще 1 раз побачити і відчути, ніж 10 разів прочитати.</p>
+                </div>
+            </section>
+            <!-- section>p+h2+ul>(li>img[src="./images/team/card$.jpg"]+h3+p)*3 -->
+            <section id="team">
+                <p>Для справжніх поціновувачів атмосфери</p>
+                <h2>Наші майстри</h2>
+                <ul>
+                    <li>
+                        <img src="./images/team/card1.jpg" width="370" height="346" alt="Джон Сміт" />
+                        <h3 lang="en">John Smith</h3>
+                        <p lang="en">Extreme Barber</p>
+                    </li>
+                    <li>
+                        <img src="./images/team/card2.jpg" width="370" height="346" alt="Майкл До" />
+                        <h3 lang="en">Michele Doe</h3>
+                        <p lang="en">Extreme Barber</p>
+                    </li>
+                    <li>
+                        <img src="./images/team/card3.jpg" width="370" height="346" alt="Алан Блек" />
+                        <h3 lang="en">Alan Black</h3>
+                        <p lang="en">Extreme Barber</p>
+                    </li>
+                </ul>
+            </section>
+            <!-- section>p+h2+ul>(li>img[src="./images/gallery/gal$.jpg"])*4 -->
+            <section>
+                <p>Латинською мовою "барба" означає "борода"</p>
+                <h2>Робота барберів</h2>
+                <ul>
+                    <li>
+                        <img src="./images/gallery/gal1.jpg" width="270" height="360" alt="Стрижка небезпечним лезом" />
+                    </li>
+                    <li><img src="./images/gallery/gal2.jpg" width="270" height="360" alt="Гоління бороди" /></li>
+                    <li>
+                        <img src="./images/gallery/gal3.jpg" width="270" height="360" alt="Гарячий рушник на обличчя" />
+                    </li>
+                    <li><img src="./images/gallery/gal4.jpg" width="270" height="360" alt="Гоління шиї" /></li>
+                </ul>
+            </section>
+            <div>
+                <!-- div>(section>h2)*2 -->
+                <section id="contact-form">
+                    <h2>Онлайн-запис</h2>
+                </section>
+                <section id="contacts">
+                    <h2>Контакти</h2>
+                    <address>
+                        <!-- ul>(li>a)*3 -->
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://goo.gl/maps/z7VsZmVzbEEzGqs2A"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >вул. Васильківська, 7А, Київ, 08132</a
+                                >
+                            </li>
+                            <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
+                            <li><a href="mailto:barbershop@email.com">barbershop@email.com</a></li>
+                        </ul>
+                    </address>
+                    <section>
+                        <p>Час роботи</p>
+                        <p>Щоденно з 9:00 до 22:00</p>
+                    </section>
+                </section>
+                <!-- карта на сайті -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.430682423617!2d30.503601699999997!3d50.395810700000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8c951889799%3A0x58e0259a6e5b738d!2z0LLRg9C70LjRhtGPINCS0LDRgdC40LvRjNC60ZbQstGB0YzQutCwLCA3LCDQmtC40ZfQsiwgMDIwMDA!5e0!3m2!1suk!2sua!4v1690648786415!5m2!1suk!2sua"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Copyright 2020</p>
+            <ul>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
