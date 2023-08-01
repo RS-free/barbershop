@@ -40,3 +40,13 @@ body {
 .list {
     list-style: none;
 }
+
+.address {
+    font-style: inherit;
+}
+
+.page-title {
+    font-family: var(--title-font);
+    font-size: 72px;
+    line-height: 1.18;
+}
