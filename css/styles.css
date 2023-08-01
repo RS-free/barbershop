@@ -77,6 +77,11 @@ body {
     letter-spacing: 0.05em;
     color: var(--title-cl);
 }
+
+/* .white-space {
+    white-space: nowrap;
+} */
+
 .page-title {
     font-size: 72px;
     line-height: 1.18;
