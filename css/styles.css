@@ -95,3 +95,33 @@ body {
     text-transform: uppercase;
     color: var(--title-cl);
 }
+
+.team-item {
+    text-align: center;
+}
+
+.team-item-name {
+    font-weight: 400;
+    line-height: 1.39;
+    color: var(--title-cl);
+}
+
+.team-item-position {
+    font-size: 14px;
+    line-height: 1.36;
+    color: var(--accent-cl);
+}
+
+.dark-bg {
+    background-color: var(--dark-bg);
+    color: var(--alt-text-cl);
+}
+
+.dark-bg .title,
+.dark-bg .btn {
+    color: var(--alt-title-cl);
+}
+
+.dark-bg .title-lable {
+    color: var(--alt-text-cl);
+}
